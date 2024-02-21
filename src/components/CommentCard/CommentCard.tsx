@@ -7,7 +7,7 @@ import Link from "next/link";
 import {
   CommentStatusEnum,
   NcmazFcCommentFullFieldsFragment,
-} from "@/__generated__/graphql";
+} //from "@/__generated__/graphql";
 import { getImageDataFromImageFragment } from "@/utils/getImageDataFromImageFragment";
 import ncFormatDate from "@/utils/formatDate";
 import { useSelector } from "react-redux";
